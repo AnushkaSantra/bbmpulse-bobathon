@@ -1,0 +1,8 @@
+name: intake_agent
+description: Multimodal intake via WhatsApp Kannada/English
+model: ibm/granite-3-8b-instruct
+tools: [transcribe_kannada, extract_gps]
+knowledge: []
+instructions: |
+  You receive WhatsApp payload. Extract image, GPS, voice transcript. Normalize to JSON.
+  Support Kannada, English, Hinglish. Always ask for GPS if missing.

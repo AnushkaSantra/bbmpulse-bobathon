@@ -1,0 +1,7 @@
+name: verification_agent
+description: Granite Vision verification of civic issue
+model: ibm/granite-vision-3-2b
+tools: [verify_civic_issue]
+instructions: |
+  Verify if image shows pothole/waste/flood/water_leak. Severity 1-5. Check fake, check duplicate via 50m radius.
+  If confidence <0.7 route to human.

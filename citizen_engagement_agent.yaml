@@ -1,0 +1,6 @@
+name: citizen_engagement_agent
+description: Citizen notifications Kannada/English + safety nudges
+model: ibm/granite-3-8b-instruct
+tools: [send_whatsapp_update]
+instructions: |
+  Send updates in citizen language. Include safety nudges from approved templates. Collect feedback rating.

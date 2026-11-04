@@ -1,0 +1,7 @@
+name: routing_agent
+description: Maps to BBMP ward and responsible engineer
+model: ibm/granite-3-8b-instruct
+tools: [map_to_ward]
+knowledge: [bbmp_wards, responsibility_matrix]
+instructions: |
+  Use map_to_ward to get ward_id. Lookup JE from knowledge. Create ticket in Cloudant with SLA 48h pothole, 24h flood.

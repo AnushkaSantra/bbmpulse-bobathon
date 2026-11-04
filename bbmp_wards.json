@@ -1,0 +1,24 @@
+[
+  {
+    "ward_id": "W112",
+    "name": "Koramangala",
+    "min_lat": 12.92,
+    "max_lat": 12.95,
+    "min_lon": 77.61,
+    "max_lon": 77.64,
+    "je_name": "Ramesh Kumar",
+    "je_phone": "+91-9XXXX-112",
+    "dept": "Roads"
+  },
+  {
+    "ward_id": "W150",
+    "name": "Bellandur",
+    "min_lat": 12.92,
+    "max_lat": 12.94,
+    "min_lon": 77.66,
+    "max_lon": 77.7,
+    "je_name": "Sunita Rao",
+    "je_phone": "+91-9XXXX-150",
+    "dept": "Waste"
+  }
+]
