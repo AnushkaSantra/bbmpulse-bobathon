@@ -1,6 +1,6 @@
 # BBMPulse - Submission
 
-GitHub: https://github.com/your-team/bbmpulse-bobathon
+GitHub: https://github.com/AnushkaSantra/bbmpulse-bobathon.git
 Deployment: https://bbmpulse-xxxx.us-south.codeengine.appdomain.cloud (Get from Enterprise Deploy button in IBM Bob IDE)
 Video: https://youtu.be/REPLACE_WITH_YOUR_UNLISTED_2MIN_VIDEO (Must show Launch Bob button click)
 
